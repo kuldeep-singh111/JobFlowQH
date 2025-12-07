@@ -14,7 +14,7 @@ const Page = () => {
 
     const fetchResponse = async () => {
       try {
-        const res = await axios.get("http://localhost:9000/api/import-logs");
+        const res = await axios.get("https://jobflowqh.onrender.com/api/import-logs");
         setLogs(res.data);
       } catch (error) {
         console.log(error)
