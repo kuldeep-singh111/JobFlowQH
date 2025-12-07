@@ -8,7 +8,7 @@ require('./queue/jobWorker');
 const PORT = process.env.PORT || 9000;
 
 
-
+require('./queue/jobWorker');
 const app = express();
 
 app.use(cors({
